@@ -31,4 +31,5 @@ GET /api/getAll/patient: Obtiene todos los pacientes.
 Citas:  
 POST /api/cita: Crea una nueva cita.  
 
-Pruebas  
+Pruebas:  
+https://logicusername.github.io/ejercicios-distrital/api-6.html
