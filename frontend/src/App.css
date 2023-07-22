@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.display {
+    display: flex;
+}
+.nav-bar {
+    height: 100%;
+    padding-top: 300px;
+    padding-left: 40px;
+}
+.etiqueta-contenedor {
+    height: 100vh;
+    margin-left: 60px;
+    margin-top: -300px;
+    
+}
+.datos-doctor{
+    margin-left: 70px;
+    margin-right: 250px;
+}
+.datos-paciente{
+    margin-left: 70px;
+    margin-right: 271px;
+}
+/* .contenedor-columnas {
+    display: none;
+} */
+#contenedor-columnas{
+    display: none;
+}
+.bottom {
+    margin-bottom: -100px;
+}
+.grid-layout{
+    margin-top: -190px;
+    display: grid;
+    grid-template-columns: 17% 20% 14% 22% auto;
+    width: 100vh;
+    padding: 20px;
+    
+}
+.grid-layout-datos{
+    margin-top: -40px;
+    display: grid;
+    grid-template-columns: 17% 20% 15% 22% 28%;
+    padding: 20px;
+}
+.caja {
+    height: 50px;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 5px;
+    margin-bottom: -7px;
+}
+.overflow-container {
+    margin-top: 90px;
+    overflow: auto;
+    max-height: 700px;
+}
+hr {
+    margin-top: -5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.click{
+    transition: all 0.2 ease;
+}
+.click:active{
+    transform: scale(0.96);
+}
+
+ 
